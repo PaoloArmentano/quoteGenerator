@@ -58,13 +58,9 @@
 
   @media (max-width: 500px) {
   .card{
-    height: 500px
+    height: 480px
   }
   }
 
-  @media (max-width: 350px) {
-    .card{
-      height: 550px
-    }
-    }
+
   
