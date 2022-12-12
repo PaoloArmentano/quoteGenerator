@@ -21,7 +21,7 @@
     margin: 20px;
     font-size: 25px;
     width: 500px;
-    height: 250px;
+    height: 310px;
     border-radius: 10px;
     padding-bottom: 30px;
     background-color: rgba(162, 215, 238, 0.515);
@@ -55,3 +55,16 @@
   button:active{
     transform: scale(0.96);
   }
+
+  @media (max-width: 500px) {
+  .card{
+    height: 500px
+  }
+  }
+
+  @media (max-width: 350px) {
+    .card{
+      height: 550px
+    }
+    }
+  
