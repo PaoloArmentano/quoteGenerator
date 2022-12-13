@@ -6,7 +6,8 @@ const newQuoteBtn = document.getElementById('new-quote');
 
 // function that fetches quote from API and displays it in card
 function getQuote() {
-fetch('https://api.goprogram.ai/inspiration?=' + Math.floor((Math.random() * 100000) + 1))
+  let randomQuote = Math.floor((Math.random() * 100000) + 1)
+fetch(`https://api.goprogram.ai/inspiration?=${randomQuote}`)
   .then((response) => response.json())
   .then((data) => {
   	quoteText.innerText = `"${data.quote}"`;
