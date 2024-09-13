@@ -16,7 +16,6 @@ fetch(`https://api.goprogram.ai/inspiration?=${randomQuote}`)
   });
 }
 
-// Event Listeners
 newQuoteBtn.addEventListener('click', getQuote);
 
 // On Load show a quote
