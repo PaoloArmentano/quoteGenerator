@@ -31,10 +31,7 @@
   margin: 20px;
 }
 
-#button-container{
-}
-
-  button {
+button {
     border-radius: 10px;
     font-size: 18px;
     border: none;
